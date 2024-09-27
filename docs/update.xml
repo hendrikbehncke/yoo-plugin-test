@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>myPlugin</name>
+    <description>er</description>
+    <element>myPlugin</element>
+    <type>plugin</type>
+    <client>site</client>
+    <folder>system</folder>
+    <version>0.0.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip">https://example.com/downloads/myPlugin-j-0.0.1.zip</downloadurl>
+    </downloads>
+    <tags>
+      <tag>stable</tag>
+    </tags>
+    <sha256>8d67da40a40b1895cfcf8047f0b502f8143fd635df06d3826af00eacd4019754</sha256>
+    <sha384>2fd30de2a3e32ee162011f9e1a6c7c385c8eadc72f973448b369a59e9afd96bf0ffb9acc7a7f309c1e5e548566fe0d2c</sha384>
+    <sha512>b48dfa682975a52634adeb3535992219c51afcb40dcfb82b6d3b0426b912e68f76c266ddb9748acf23e785859b2e62bfe827634abd1a7ffe014897e74ba88e3c</sha512>
+    <maintainer>er</maintainer>
+    <maintainerurl>er</maintainerurl>
+    <targetplatform name="joomla" version="(5\.[01]|4\.[01234]|3\.10)\."/>
+  </update>
+</updates>
