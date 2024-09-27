@@ -6,14 +6,16 @@ on:
     branches:
       - main
     tags:
-      - /.*/
+      - .*
 
 jobs:
-  Build:
+  build:
     name: Build
     runs-on: ubuntu-latest
     steps:
       - name: Install go-task
         run: npm install -g @go-task/cli
+      - name: List Files
+        run: ls
       - name: Build
         run: task build
