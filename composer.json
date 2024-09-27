@@ -11,17 +11,8 @@
     "require": {
         "php": "^8.0"
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "/Users/hendrik/Webserver/starter-utils",
-            "options": {
-                "symlink": true
-            }
-        }
-    ],
     "require-dev": {
-        "yootheme/starter-utils": "@dev"
+        "yootheme/starter-utils": "^1.0"
     },
     "scripts": {
         "run:task": "YOOtheme\\Starter\\TaskHelper::run",
