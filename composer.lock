@@ -1,0 +1,83 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "8248d884389f8ef210f2b2fefb755c38",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "yootheme/starter-utils",
+            "version": "dev-develop",
+            "dist": {
+                "type": "path",
+                "url": "/Users/hendrik/Webserver/starter-utils",
+                "reference": "af8d2400370dd1ca47f6d9f14499fdc97b5042f2"
+            },
+            "require": {
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "composer/composer": "^2.7",
+                "phpstan/phpstan": "^1.11"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "YOOtheme\\Starter\\": "src"
+                }
+            },
+            "scripts": {
+                "phpstan": [
+                    "phpstan analyse -c phpstan.neon"
+                ],
+                "run:task": [
+                    "YOOtheme\\Starter\\TaskHelper::run"
+                ],
+                "create:plugin": [
+                    "YOOtheme\\Starter\\CreatePluginCommand"
+                ],
+                "create:element": [
+                    "YOOtheme\\Starter\\CreateElementCommand"
+                ],
+                "create:module": [
+                    "YOOtheme\\Starter\\CreateModuleCommand"
+                ],
+                "create:joomlaUpdate": [
+                    "YOOtheme\\Starter\\CreateJoomlaUpdateCommand"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "YOOtheme Pro - Starter Utilities",
+            "homepage": "https://yootheme.com",
+            "keywords": [
+                "joomla",
+                "wordpress",
+                "yootheme"
+            ],
+            "support": {
+                "issues": "https://github.com/yootheme/starter-utils/issues",
+                "source": "https://github.com/yootheme/starter-utils"
+            },
+            "transport-options": {
+                "symlink": true,
+                "relative": false
+            }
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "yootheme/starter-utils": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^8.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

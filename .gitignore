@@ -1,0 +1,13 @@
+.idea
+.vscode
+.history
+.DS_Store
+.php_cs.cache
+.env*.local
+
+/dist
+/vendor
+
+myPlugin.xml
+myPlugin.php
+
