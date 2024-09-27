@@ -6,7 +6,7 @@ on:
     branches:
       - main
     tags:
-      - .*
+      - *.*
 
 jobs:
   build:
@@ -17,5 +17,7 @@ jobs:
         run: npm install -g @go-task/cli
       - name: Check out repository code
         uses: actions/checkout@v4
+      - name: Composer install
+        run: composer install
       - name: Build
         run: task build
