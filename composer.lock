@@ -9,16 +9,16 @@
     "packages-dev": [
         {
             "name": "yootheme/starter-utils",
-            "version": "1.0.6",
+            "version": "1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yootheme/starter-utils.git",
-                "reference": "ecdb910dc9cbb5ae49fe59e55d35460f10274616"
+                "reference": "d4c6a4a1d71c70d6f1845007baae1f2c87159a5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yootheme/starter-utils/zipball/ecdb910dc9cbb5ae49fe59e55d35460f10274616",
-                "reference": "ecdb910dc9cbb5ae49fe59e55d35460f10274616",
+                "url": "https://api.github.com/repos/yootheme/starter-utils/zipball/d4c6a4a1d71c70d6f1845007baae1f2c87159a5e",
+                "reference": "d4c6a4a1d71c70d6f1845007baae1f2c87159a5e",
                 "shasum": ""
             },
             "require": {
@@ -49,7 +49,7 @@
                 "issues": "https://github.com/yootheme/starter-utils/issues",
                 "source": "https://github.com/yootheme/starter-utils"
             },
-            "time": "2024-09-18T11:31:21+00:00"
+            "time": "2024-09-27T12:59:37+00:00"
         }
     ],
     "aliases": [],

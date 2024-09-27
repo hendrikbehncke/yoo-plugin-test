@@ -1,5 +1,4 @@
 name: Workflow Example
-run-name: Running Workflow Example
 
 on:
   push:
@@ -23,3 +22,7 @@ jobs:
 
       - name: Build
         run: task build
+
+      - uses: actions/upload-artifact@v4
+        with:
+          path: dist
