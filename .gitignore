@@ -6,6 +6,9 @@
 .env*.local
 
 /dist
+/docs/.vitepress/dist
+/docs/.vitepress/cache
+/node_modules
 /vendor
 
 ./myPlugin.xml
